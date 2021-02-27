@@ -99,6 +99,7 @@ void AMainCharacter::BeginPlay()
 	FString Map = GetWorld()->GetMapName();
 	Map.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
 
+	/**
 	if (Map != "SunTemple")
 	{
 		LoadGameSwitch();
@@ -107,6 +108,12 @@ void AMainCharacter::BeginPlay()
 		{
 			MainPlayerController->GameModeOnly();
 		}
+	}
+	*/
+	LoadGameSwitch();
+	if (MainPlayerController)
+	{
+		MainPlayerController->GameModeOnly();
 	}
 }
 
@@ -815,7 +822,7 @@ void AMainCharacter::LoadGame(bool SetPosition)
 		{
 			FString WeaponName = LoadGameInstance->CharacterStats.WeaponName;
 			 
-			if (Weapons->WeaponMap.Contains(WeaponName))
+			if (WeaponName != TEXT(""))
 			{
 				AWeapon* WeaponToEquip = GetWorld()->SpawnActor<AWeapon>(Weapons->WeaponMap[WeaponName]);
 				WeaponToEquip->Equip(this);
@@ -861,7 +868,7 @@ void AMainCharacter::LoadGameSwitch()
 		{
 			FString WeaponName = LoadGameInstance->CharacterStats.WeaponName;
 
-			if (Weapons->WeaponMap.Contains(WeaponName))
+			if (WeaponName != TEXT(""))
 			{
 				AWeapon* WeaponToEquip = GetWorld()->SpawnActor<AWeapon>(Weapons->WeaponMap[WeaponName]);
 				WeaponToEquip->Equip(this);
