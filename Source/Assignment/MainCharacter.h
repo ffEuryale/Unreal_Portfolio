@@ -137,11 +137,17 @@ public:
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const &DamageEvent, class AController* EventInstigator,
 		AActor* DamageCauser) override;
 
+	//코인 증가
 	UFUNCTION(BlueprintCallable)
 	void IncrementCoins(int32 Amount);
 
+	//체력 증가 (포션)
 	UFUNCTION(BlueprintCallable)
 	void IncrementHealth(float Amount);
+
+	//스테미너 증가 (포션)
+	UFUNCTION(BlueprintCallable)
+	void IncrementStamina(float Amount);
 
 	void Die();
 
