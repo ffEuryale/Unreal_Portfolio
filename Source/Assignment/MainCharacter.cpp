@@ -58,8 +58,8 @@ AMainCharacter::AMainCharacter()
 	GetCharacterMovement()->AirControl = 0.2f;
 
 	MaxHealth = 100.f;		// 최대 체력
-	Health = 65.f;			// 현재 체력
-	MaxStamina = 150.f;		// 최대 스테미너
+	Health = 100.f;			// 현재 체력
+	MaxStamina = 120.f;		// 최대 스테미너
 	Stamina = 120.f;		// 초기 스테미너
 	Coins = 0;				// 초기 소지금
 
@@ -99,7 +99,6 @@ void AMainCharacter::BeginPlay()
 	FString Map = GetWorld()->GetMapName();
 	Map.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
 
-	/**
 	if (Map != "SunTemple")
 	{
 		LoadGameSwitch();
@@ -109,12 +108,12 @@ void AMainCharacter::BeginPlay()
 			MainPlayerController->GameModeOnly();
 		}
 	}
-	*/
+	/**
 	LoadGameSwitch();
 	if (MainPlayerController)
 	{
 		MainPlayerController->GameModeOnly();
-	}
+	}*/
 }
 
 // Called every frame
@@ -139,9 +138,11 @@ void AMainCharacter::Tick(float DeltaTime)
 				{
 					SetStaminaStatus(EStaminaStatus::ESS_BeloMinimum);
 					Stamina -= DeltaStamina;
+					Stamina -= DeltaStamina;
 				}
 				else
 				{
+					Stamina -= DeltaStamina;
 					Stamina -= DeltaStamina;
 				}
 
@@ -185,6 +186,7 @@ void AMainCharacter::Tick(float DeltaTime)
 					SetMovementStatus(EMovementStatus::EMS_Normal);
 				}
 
+				Stamina -= DeltaStamina;
 				Stamina -= DeltaStamina;
 			}
 		}
