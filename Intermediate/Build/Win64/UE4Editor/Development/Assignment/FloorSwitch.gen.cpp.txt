@@ -1,0 +1,5 @@
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4Editor\Development\Assignment\Definitions.Assignment.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Source\Assignment/FloorSwitch.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4Editor\Inc\Assignment\FloorSwitch.generated.h

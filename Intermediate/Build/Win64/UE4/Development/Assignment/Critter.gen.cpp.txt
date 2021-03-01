@@ -1,0 +1,5 @@
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4\Development\Assignment\Definitions.Assignment.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Source\Assignment/Critter.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4\Inc\Assignment\Critter.generated.h

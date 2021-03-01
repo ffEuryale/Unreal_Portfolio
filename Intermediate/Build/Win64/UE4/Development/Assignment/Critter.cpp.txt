@@ -1,0 +1,5 @@
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4\Development\Assignment\Definitions.Assignment.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Source\Assignment\Critter.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4\Inc\Assignment\Critter.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\CameraComponent.generated.h

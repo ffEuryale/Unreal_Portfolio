@@ -1,0 +1,9 @@
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4\Development\Assignment\Definitions.Assignment.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Source\Assignment/AssignmentGameModeBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameModeBase.generated.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4\Inc\Assignment\AssignmentGameModeBase.generated.h

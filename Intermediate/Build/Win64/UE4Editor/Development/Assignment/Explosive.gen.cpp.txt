@@ -1,0 +1,7 @@
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4Editor\Development\Assignment\Definitions.Assignment.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Source\Assignment/Explosive.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Source\Assignment\Item.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4Editor\Inc\Assignment\Item.generated.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4Editor\Inc\Assignment\Explosive.generated.h

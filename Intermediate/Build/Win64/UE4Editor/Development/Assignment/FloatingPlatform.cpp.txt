@@ -1,0 +1,3 @@
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4Editor\Development\Assignment\Definitions.Assignment.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Source\Assignment\FloatingPlatform.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4Editor\Inc\Assignment\FloatingPlatform.generated.h

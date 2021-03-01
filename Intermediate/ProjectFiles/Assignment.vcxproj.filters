@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Assignment.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EE06FE73-7B78-4B6A-BCC6-64171C5B827A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Assignment.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AssignmentEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Assignment.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{E2F3905E-A4E6-45E0-BE24-734A2ED77F81}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Assignment">
+      <UniqueIdentifier>{FECFED78-2809-493E-A523-BC0717F4EB7C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Assignment\Assignment.Build.cs">
+      <Filter>Source\Assignment</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Assignment\Assignment.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\Assignment.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\AssignmentGameModeBase.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\AssignmentGameModeBase.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\AssignmentSaveGame.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\AssignmentSaveGame.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\Collider.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\Collider.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\ColliderMovementComponent.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\ColliderMovementComponent.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\Critter.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\Critter.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\Enemy.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\Enemy.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\EnemyAnimInstance.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\EnemyAnimInstance.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\Explosive.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\Explosive.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\FloatingPlatform.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\FloatingPlatform.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\FloorSwitch.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\FloorSwitch.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\Item.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\Item.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\ItemStorage.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\ItemStorage.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\LevelTransitionVolume.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\LevelTransitionVolume.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\MainAnimInstance.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\MainAnimInstance.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\MainCharacter.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\MainCharacter.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\MainPlayerController.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\MainPlayerController.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\Pickup.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\Pickup.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\SpawnVolume.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\SpawnVolume.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Assignment\Weapon.cpp">
+      <Filter>Source\Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Assignment\Weapon.h">
+      <Filter>Source\Assignment</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Intermediate\Build\Win64\UE4\Development\Assignment\Definitions.Assignment.h
+D:\UnrealProject\AssignmentProjectCleaned\Assignment\Source\Assignment\Assignment.h
