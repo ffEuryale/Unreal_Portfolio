@@ -1,0 +1,2 @@
+ElvenRuins__BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+SunTemple_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
