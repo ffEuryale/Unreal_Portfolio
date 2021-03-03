@@ -9,20 +9,20 @@
 UENUM(BlueprintType)
 enum class EMovementStatus : uint8
 {
-	EMS_Normal			UMETA(DisplayName = "Normal"),
-	EMS_Sprinting		UMETA(DisplayName = "Sprinting"),
-	EMS_Dead			UMETA(DisplayName = "Dead"),
-	EMS_MAX				UMETA(DisplayName = "DefaultMax")
+	EMS_Normal			UMETA(DisplayName = "Normal"),		//기본 상태
+	EMS_Sprinting		UMETA(DisplayName = "Sprinting"),	//스프린팅 상태
+	EMS_Dead			UMETA(DisplayName = "Dead"),		//사망 상태
+	EMS_MAX				UMETA(DisplayName = "DefaultMax")	//ENUM의 최대 값 == 기본상태
 };
 
 UENUM(BlueprintType)
 enum class EStaminaStatus : uint8
 {
-	ESS_Normal					UMETA(DisplayName = "Normal"),
-	ESS_BeloMinimum				UMETA(DisplayName = "_BeloMinimum"),
-	ESS_Exhausted				UMETA(DisplayName = "Exhaust"),
-	ESS_ExhaustedRecovering		UMETA(DisplayName = "ExhaustedRecovering"),
-	ESS_Max						UMETA(DisplayName = "DefaultMax")
+	ESS_Normal					UMETA(DisplayName = "Normal"),				//기본 상태
+	ESS_VeloMinimum				UMETA(DisplayName = "_VeloMinimum"),		//최소 속도
+	ESS_Exhausted				UMETA(DisplayName = "Exhaust"),				//스테미너 소진
+	ESS_ExhaustedRecovering		UMETA(DisplayName = "ExhaustedRecovering"),	//스테미너 충전
+	ESS_Max						UMETA(DisplayName = "DefaultMax")			//ENUM의 최대 값
 };
 
 UCLASS()

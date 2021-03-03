@@ -140,7 +140,7 @@ void AMainCharacter::Tick(float DeltaTime)
 			{
 				if (Stamina - DeltaStamina <= MinSprintStamina)
 				{
-					SetStaminaStatus(EStaminaStatus::ESS_BeloMinimum);
+					SetStaminaStatus(EStaminaStatus::ESS_VeloMinimum);
 					Stamina -= DeltaStamina;
 					Stamina -= DeltaStamina;
 				}
@@ -169,7 +169,7 @@ void AMainCharacter::Tick(float DeltaTime)
 		}
 	break;
 
-	case EStaminaStatus::ESS_BeloMinimum:
+	case EStaminaStatus::ESS_VeloMinimum:
 		if (bShiftKeyDown)	// 시프트 키를 눌렀을 때
 		{
 			if (Stamina - DeltaStamina <= 0.f)
@@ -299,11 +299,6 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAction("RightMouseButtonDown", IE_Pressed, this, &AMainCharacter::MouseRightButtonDown);
 	PlayerInputComponent->BindAction("RightMouseButtonDown", IE_Released, this, &AMainCharacter::MouseRightButtonUp);
-
-	/*
-	PlayerInputComponent->BindAction("CameraBoomInit", IE_Pressed, this, &AMainCharacter::LeftTriggerDown);
-	PlayerInputComponent->BindAction("CameraBoomInit", IE_Released, this, &AMainCharacter::LeftTriggerUp);
-	*/
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
@@ -480,20 +475,6 @@ void AMainCharacter::MouseRightButtonUp()
 {
 	bMouseRightButtonDown = false;
 }
-
-/*
-void AMainCharacter::LeftTriggerDown()
-{
-	bLeftTriggerDown = true;
-
-	LTrigger();
-}
-
-void AMainCharacter::LeftTriggerUp()
-{
-	bLeftTriggerDown = false;
-}
-*/
 
 void AMainCharacter::SetEquippedWeapon(AWeapon* WeaponToSet)
 {
@@ -679,7 +660,6 @@ void AMainCharacter::PlaySwingSound()
 	{
 		UGameplayStatics::PlaySound2D(this, EquippedWeapon->SwingSward);
 	}
-
 }
 
 void AMainCharacter::SetInterpToEnemy(bool Interp)
@@ -886,17 +866,4 @@ void AMainCharacter::LoadGameSwitch()
 	GetMesh()->bPauseAnims = false;
 	GetMesh()->bNoSkeletonUpdate = false;
 }
-
-/*
-void AMainCharacter::LTrigger()
-{
-	if (!bCameraLocationInit)
-	{
-		bCameraLocationInit = true;
-
-
-	}
-
-}
-*/
 
